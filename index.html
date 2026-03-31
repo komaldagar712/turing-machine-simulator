@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Turing Machine Simulator</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<div class="header">
+    <i class="fa-solid fa-gear"></i> Turing Machine Simulator
+</div>
+
+<div class="navbar">
+    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="about.html"><i class="fa-solid fa-user"></i> About</a>
+    <a href="theory.html"><i class="fa-solid fa-book"></i> Theory</a>
+</div>
+
+<div class="main">
+
+<div class="controls">
+
+<input type="text" id="tapeInput" placeholder="Enter binary (e.g., 1011)">
+
+<br><br>
+
+<button onclick="startMachine()"><i class="fa-solid fa-play"></i> Start</button>
+<button onclick="stepMachine()"><i class="fa-solid fa-forward-step"></i> Step</button>
+<button onclick="startAuto()"><i class="fa-solid fa-robot"></i> Auto</button>
+
+<br><br>
+
+<input type="range" id="speedControl" min="100" max="1000" value="500">
+<span id="speedValue">500 ms</span>
+
+</div>
+
+<h2>Output Tape</h2>
+<div id="output"></div>
+
+<h3>Current State</h3>
+<div id="stateDisplay"></div>
+
+<h3>Execution Steps</h3>
+<table id="stateTable">
+<tr>
+<th>Step</th>
+<th>State</th>
+<th>Read</th>
+<th>Write</th>
+<th>Move</th>
+</tr>
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+<footer>
+
+<p style="margin-top:20px; opacity:0.6;">
+© 2026 Komal Dagar | Turing Machine Simulator
+</p>
+
+</footer>
+</html>
