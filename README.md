@@ -55,14 +55,14 @@ It visually demonstrates how a Turing Machine processes input step-by-step.
 ---
 
 ## 👨‍💻 Developer
-**Komal Dagar**  
-**ROLL NO.: 2024UCS1614**
+**Komal Dagar**    
+**ROLL NO.: 2024UCS1614**   
 B.Tech Computer Science and Engineering
 
 ---
 
 ## 📞 Contact
-Phone: 8700470628
-Email: komal_ug24@gmail.com
+Phone: 8700470628   
+Email: komal_ug24@gmail.com 
 
 ---
