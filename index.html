@@ -4,7 +4,7 @@
 <title>Turing Machine Simulator</title>
 <link rel="stylesheet" href="style.css">
 
-<!-- ICONS -->
+<!-- Icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
@@ -28,9 +28,51 @@
 
 <br><br>
 
+<h3>Add Rule</h3>
+
+<select id="curState">
+<option>q0</option>
+<option>q1</option>
+<option>q2</option>
+</select>
+
+<select id="readSym">
+<option>0</option>
+<option>1</option>
+<option>_</option>
+</select>
+
+<select id="nextState">
+<option>q0</option>
+<option>q1</option>
+<option>q2</option>
+<option>q_accept</option>
+</select>
+
+<select id="writeSym">
+<option>0</option>
+<option>1</option>
+<option>_</option>
+</select>
+
+<select id="moveDir">
+<option value="R">Right</option>
+<option value="L">Left</option>
+</select>
+
+<br><br>
+
+<button onclick="addRule()">Add Rule</button>
+
+</div>
+
+<br><br>
+
 <button onclick="startMachine()"><i class="fa-solid fa-play"></i> Start</button>
 <button onclick="stepMachine()"><i class="fa-solid fa-forward-step"></i> Step</button>
 <button onclick="startAuto()"><i class="fa-solid fa-robot"></i> Auto</button>
+
+<div id="rulesList"></div>
 
 <br><br>
 
@@ -64,8 +106,8 @@
 
 <footer>
 
-<p style="margin-top:20px; opacity:0.6;">
-© 2026 Komal Dagar | Turing Machine Simulator
+<p style="margin-top:50px; opacity:0.6;margin-bottom:70px;">
+© 2026 Komal Dagar | 2024UCS1614 | Turing Machine Simulator
 </p>
 
 </footer>

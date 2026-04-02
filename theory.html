@@ -3,8 +3,6 @@
 <head>
 <title>Theory</title>
 <link rel="stylesheet" href="style.css">
-
-<!-- ICONS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
@@ -25,27 +23,70 @@
 <h2>What is a Turing Machine?</h2>
 <p>
 A Turing Machine is a mathematical model of computation introduced by Alan Turing.
+It is used to describe how computers process information and execute algorithms.
 </p>
 
-<h2>Components</h2>
+<h2>Main Components</h2>
 <ul>
-<li>Tape</li>
-<li>Head</li>
-<li>States</li>
-<li>Transition rules</li>
+<li><b>Tape:</b> An infinite strip divided into cells for storing symbols</li>
+<li><b>Head:</b> Reads and writes symbols on the tape</li>
+<li><b>States:</b> Different conditions of the machine (q0, q1, etc.)</li>
+<li><b>Transition Function:</b> Defines what action to take based on current state and symbol</li>
 </ul>
 
-<h2>Working</h2>
+<h2>Working Principle</h2>
 <p>
-The machine reads, writes, changes state, and moves left or right.
+At each step, the machine reads the current symbol under the head,
+applies a transition rule, writes a new symbol, changes its state,
+and moves the head either left or right.
 </p>
 
-<h2>Applications</h2>
+<h2>About This Simulator</h2>
+<p>
+This project is a web-based Turing Machine Simulator developed using HTML, CSS, and JavaScript.
+It provides a visual representation of how a Turing Machine processes input.
+</p>
+
+<h2>Features Implemented</h2>
 <ul>
-<li>Computer science theory</li>
-<li>Algorithm design</li>
-<li>AI basics</li>
+<li>Manual step-by-step execution</li>
+<li>Automatic execution mode</li>
+<li>Execution tracking table</li>
+<li>Speed control slider</li>
+<li>User-defined transition rules using dropdown</li>
+<li>Multi-page interface (Home, About, Theory)</li>
 </ul>
+
+<h2>How the Project Works</h2>
+<p>
+The user enters a binary input string and optionally defines transition rules.
+The simulator then processes the input based on the defined rules.
+At each step:
+</p>
+
+<ul>
+<li>The current symbol is read</li>
+<li>A transition rule is applied</li>
+<li>The symbol is updated</li>
+<li>The state changes</li>
+<li>The head moves left or right</li>
+</ul>
+
+<p>
+All steps are displayed visually using tape cells and an execution table.
+</p>
+
+<h2>Example</h2>
+<p>
+Input: 1011<br>
+The machine processes each symbol and converts all 1s into 0s, resulting in 0000.
+</p>
+
+<h2>Conclusion</h2>
+<p>
+This simulator helps in understanding the working of a Turing Machine in a visual and interactive way.
+It bridges the gap between theoretical concepts and practical implementation.
+</p>
 
 </div>
 
@@ -53,8 +94,8 @@ The machine reads, writes, changes state, and moves left or right.
 
 <footer>
 
-<p style="margin-top:20px; opacity:0.6;">
-© 2026 Komal Dagar | Turing Machine Simulator
+<p style="margin-top:50px; opacity:0.6;margin-bottom:70px;">
+© 2026 Komal Dagar | 2024UCS1614 | Turing Machine Simulator
 </p>
 
 </footer>

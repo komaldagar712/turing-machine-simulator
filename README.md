@@ -1,44 +1,68 @@
 # Turing Machine Simulator
 
 ## 📌 Project Description
-This project is a web-based Turing Machine Simulator built using HTML, CSS, and JavaScript. It demonstrates how a Turing Machine processes an input string step-by-step.
+This project is a web-based Turing Machine Simulator built using HTML, CSS, and JavaScript.  
+It visually demonstrates how a Turing Machine processes input step-by-step.
 
-## ⚙️ Features
-- Input binary string
-- Visual tape representation
-- Moving head simulation
-- Step-by-step execution
-- Automatic execution
-- Transition table display
-- Accept/Reject output
+---
+
+## 🚀 Features
+- Manual (step-by-step) execution
+- Automatic simulation mode
+- Execution tracking table
+- Speed control slider
+- User-defined transition rules (UI-based)
+- Multi-page interface (Home, About, Theory)
+- Clean and modern UI design
+
+---
 
 ## 🧠 How It Works
-The simulator starts from the initial state (q0) and reads symbols from the tape. Based on the transition function, it updates the symbol, moves the head, and changes state.
+1. User enters a binary input string
+2. Machine reads symbol under head
+3. Applies transition rule
+4. Writes new symbol
+5. Moves head left or right
+6. Changes state
 
-When the machine encounters a blank symbol (_), it transitions to the accept state.
-
-## ▶️ How to Run
-1. Open `index.html` in a browser
-2. Enter input string (e.g., 1011)
-3. Click "Start Simulation" or "Next Step"
-
-## 📁 Files
-- index.html → UI structure
-- style.css → Styling
-- script.js → Logic implementation
+---
 
 ## 📸 Screenshots
-## 📸 Screenshots
 
-### Home Screen
-![Home](screenshot1.png)
+### 🔹 Home Page
+![Home](home.png)
 
-### Simulation Running
-![Running](screenshot2.png)
+### 🔹 Execution
+![Execution](execution.png)
 
-### Final Output
-![Result](screenshot3.png)
+### 🔹 Execution Steps
+![Execution Steps](exection_steps.png)
 
-## 👨‍💻 Author
-Komal Dagar
-2024UCS1614
+### 🔹 About Page
+![About](about.png)
+
+### 🔹 Theory Page
+![Theory](theory1.png)
+![Theory](theory2.png)
+
+---
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 👨‍💻 Developer
+**Komal Dagar**  
+**ROLL NO.: 2024UCS1614**
+B.Tech Computer Science and Engineering
+
+---
+
+## 📞 Contact
+Phone: 8700470628
+Email: komal_ug24@gmail.com
+
+---
